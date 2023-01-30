@@ -95,7 +95,7 @@ const App = () => {
       <Notification message={errorMessage} />
 
       {!user && (
-        <Togglable buttonLabel="log in">
+        <Togglable buttonLabel="login">
           <LoginForm
             username={username}
             password={password}
